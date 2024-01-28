@@ -25,7 +25,7 @@ export const Alumnos = () => {
     alumnos.reduce((suma, alumno) => suma + alumno.calificacion, 0) / alumnos.length;
   return (
     <>
-      <h1>Alumnos</h1>
+      <h3>Promedio</h3>
       {/* <code>
         <pre>
             {JSON.stringify(alumnos,null, 5)}

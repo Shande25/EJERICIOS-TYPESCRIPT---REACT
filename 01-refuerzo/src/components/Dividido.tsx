@@ -3,9 +3,8 @@ export const Dividido = () => {
   const dividir5 = arreglo.map(valor => valor / 5);
   return (
     <>
-      <h3>Primer Arreglo</h3>
+      <h3>Arreglo sin Dividir</h3>
       <p>{arreglo.join(', ')}</p>
-       <br />
       <h3>Arreglo Dividido por 5</h3>
       <p>{dividir5.join(', ')}</p>
     </>

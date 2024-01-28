@@ -8,9 +8,9 @@ export const Contador = () => {
   return (
     <>
         <h3>Contador <small>{valor}</small></h3>
-      <button className="btn1 btn-primary" onClick={()=>contador(5)}>+5</button>
+      <button className="btn btn-primary " onClick={()=>contador(5)}>+5</button>
       &nbsp;
-      <button className="btn1 btn-primary" onClick={()=>contador(-5)}>-5</button>
+      <button className="btn btn-primary" onClick={()=>contador(-5)}>-5</button>
     </>
   )
 }

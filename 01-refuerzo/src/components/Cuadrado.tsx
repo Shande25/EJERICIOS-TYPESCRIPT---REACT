@@ -8,9 +8,9 @@ export const Cuadrado = () => {
   };
   return (
     <>
-      <h3>Calcular Área del Cuadrado</h3>
+      <h3>Calcular el area del cuadrado</h3>
       <span>
-        El área del cuadrado con lado {lado} es {calcular(lado)}.
+        El area del cuadrado con lado {lado} es {calcular(lado)}.
       </span>
     </>
   );
